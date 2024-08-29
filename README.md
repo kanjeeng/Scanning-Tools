@@ -10,19 +10,19 @@ Tools designed to help find hidden technology assets and vulnerabilities. With a
 
 ## Installation
 
-Install my-project with git-clone
+Install project menggunakan git-clone
 
 ```bash
   git clone https://github.com/kanjeeng/Scanning-Tools.git
 ```
 
-Masuk kedalam Directory File RAFT
+Masuk kedalam Directory File Scanning-Tools
 
 ```bash
   cd Scanning-Tools/
 ```
 
-Instal Library Tambahan
+Install Library Tambahan
 ```bash
   pip install scapy
   pip install requests
@@ -36,6 +36,7 @@ Jalankan Tools menggunakan command `python3`
 ```
 ## WPScan Installation on Debian
 
+Untuk menjalankan fitur 6 dan 7, install wpscan
 ```bash
   sudo apt install wpscan
 ```
