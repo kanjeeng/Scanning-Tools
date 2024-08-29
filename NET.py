@@ -11,7 +11,7 @@ ip_add_range_pattern = re.compile("^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$")
 
 def get_vendor(mac):  # Mendefinisikan fungsi untuk mendapatkan informasi vendor berdasarkan alamat MAC.
     
-    # Retrieve vendor information from an external API
+    # Ambil informasi vendor dari API eksternal
     try:
         response = requests.get(f"https://api.macvendors.com/{mac}")  
         # Melakukan permintaan HTTP GET ke API macvendors.com untuk mendapatkan informasi vendor dari alamat MAC yang diberikan.
