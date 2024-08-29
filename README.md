@@ -1,128 +1,69 @@
-# Tools-Scanner
-<h1 align="center">Welcome to Tools-Scanner> 👋</h1>
-<p>
-<% if (isProjectOnNpm) { -%>
-  <a href="https://www.npmjs.com/package/<%= projectName %>" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/<%= projectName %>.svg">
-  </a>
-<% } -%>
-<% if (projectVersion && !isProjectOnNpm) { -%>
-  <img alt="Version" src="https://img.shields.io/badge/version-<%= projectVersion %>-blue.svg?cacheSeconds=2592000" />
-<% } -%>
-<% if (projectPrerequisites) { -%>
-<% projectPrerequisites.map(({ name, value }) => { -%>
-  <img src="https://img.shields.io/badge/<%= name %>-<%= encodeURIComponent(value) %>-blue.svg" />
-<% }) -%>
-<% } -%>
-<% if (projectDocumentationUrl) { -%>
-  <a href="<%= projectDocumentationUrl %>" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-<% } -%>
-<% if (isGithubRepos) { -%>
-  <a href="<%= repositoryUrl %>/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-<% } -%>
-<% if (licenseName) { -%>
-  <a href="<%= licenseUrl ? licenseUrl : '#' %>" target="_blank">
-    <img alt="License: <%= licenseName %>" src="https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>" />
-  </a>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-  <a href="https://twitter.com/<%= authorTwitterUsername %>" target="_blank">
-    <img alt="Twitter: <%= authorTwitterUsername %>" src="https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social" />
-  </a>
-<% } -%>
-</p>
-<% if (projectDescription) { -%>
 
-> <%= projectDescription %>
-<% } -%>
-<% if (projectHomepage) { -%>
+# RAF'T - Scanning Tools
 
-### 🏠 [Homepage](<%= projectHomepage %>)
-<% } -%>
-<% if (projectDemoUrl) { -%>
+Raf't is a powerful tool designed to help you discover hidden Tech assets and vulnerabilities in your environment. With a range of features focused on OS scanning, port scanning, and network scanning, Raf't enables users to get a comprehensive view of their infrastructure's security posture.
 
-### ✨ [Demo](<%= projectDemoUrl %>)
-<% } -%>
-<% if (projectPrerequisites && projectPrerequisites.length) { -%>
 
-## Prerequisites
+![Logo](img/Title.png)
 
-<% projectPrerequisites.map(({ name, value }) => { -%>
-- <%= name %> <%= value %>
-<% }) -%>
-<% } -%>
-<% if (installCommand) { -%>
 
-## Install
 
-```sh
-<%= installCommand %>
+[![GitHub release](https://img.shields.io/github/release/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/releases)
+[![GitHub issues](https://img.shields.io/github/issues/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/issues)
+[![Github Stars](https://img.shields.io/github/stars/LazyCats07/Raf-T.svg?style=social&label=Stars)](https://github.com/LazyCats07/Raf-T)
+[![GitHub Followers](https://img.shields.io/github/followers/LazyCats07.svg?style=social&label=Follow)](https://github.com/LazyCats07)
+[![Follow on LinkedIn](https://img.shields.io/badge/Follow%20on%20LinkedIn-%230077B5.svg?style=social&logo=linkedin)](https://www.linkedin.com/in/mrafiediananta/)
+
+[[LinkedIn](https://www.linkedin.com/in/mrafiediananta/)] [[GitHub](https://github.com/LazyCats07/Raf-T)] [[Website](https://ren-os.vercel.app/)]
+
+
+## Installation
+
+Install my-project with git-clone
+
+```bash
+  git clone https://github.com/LazyCats07/Raf-T
 ```
-<% } -%>
-<% if (usage) { -%>
 
+Masuk kedalam Directory File RAFT
+
+```bash
+  cd Raf-T/
+```
+
+Masuk ke dalam directory RAFT
+```bash
+  cd RAFT/
+
+```  
+
+Jalankan Tools menggunakan command `python3`
+```bash
+  python3 RAFT.py
+
+```  
 ## Usage
 
-```sh
-<%= usage %>
+[![Alt Text](img/Youtube.png)](https://youtu.be/EPOFYOy4xAw)
+
+
+```bash
+Click the Demo Above!
+
 ```
-<% } -%>
-<% if (testCommand) { -%>
+## Tech Stack
 
-## Run tests
+**Client:** Linux
 
-```sh
-<%= testCommand %>
-```
-<% } -%>
-<% if (authorName || authorTwitterUsername || authorGithubUsername) { -%>
+**Server:** Linux
 
-## Author
-<% if (authorName) { %>
-👤 **<%= authorName %>**
-<% } %>
-<% if (authorWebsite) { -%>
-* Website: <%= authorWebsite %>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
-<% } -%>
-<% if (authorGithubUsername) { -%>
-* GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
-<% } -%>
-<% if (authorLinkedInUsername) { -%>
-* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
-<% } -%>
-<% } -%>
-<% if (issuesUrl) { -%>
 
-## 🤝 Contributing
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/LazyCats07/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrafiediananta/)
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
-<% } -%>
 
-## Show your support
 
-Give a ⭐️ if this project helped you!
-<% if (authorPatreonUsername) { -%>
+## Authors
 
-<a href="https://www.patreon.com/<%= authorPatreonUsername %>">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-<% } -%>
-<% if (licenseName && licenseUrl) { -%>
-
-## 📝 License
-
-<% if (authorName && authorGithubUsername) { -%>
-Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= authorGithubUsername %>).<br />
-<% } -%>
-This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
-<% } -%>
-
-***
-<%- include('footer.md'); -%>
+- [@LazyCats07](https://github.com/LazyCats07/)
