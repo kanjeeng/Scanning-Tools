@@ -13,24 +13,25 @@ Tools designed to help find hidden technology assets and vulnerabilities. With a
 Install my-project with git-clone
 
 ```bash
-  git clone https://github.com/LazyCats07/Raf-T
+  git clone https://github.com/kanjeeng/Scanning-Tools.git
 ```
 
 Masuk kedalam Directory File RAFT
 
 ```bash
-  cd Raf-T/
+  cd Scanning-Tools/
 ```
 
-Masuk ke dalam directory RAFT
+Instal Library Tambahan
 ```bash
-  cd RAFT/
-
+  pip install scapy
+  pip install requests
+  pip install beautifulsoup4
 ```  
 
 Jalankan Tools menggunakan command `python3`
 ```bash
-  python3 RAFT.py
+  python3 KAND.py
 
 ```  
 ## Usage
