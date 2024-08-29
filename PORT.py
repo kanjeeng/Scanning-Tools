@@ -9,7 +9,7 @@ def scan_port(host, port):
             sock.settimeout(1)
             # Mengatur waktu tunggu(timeout) untuk koneksi 1 detik, jika tidak berhasil maka dianggap gagal.
             result = sock.connect_ex((host, port))
-            # Mencoba menghubungi port pada host yang ditentukan. connect_ex mengembalikan kode kesalahan atau 0 jika koneksi berhasil.
+            # Mencoba menghubungi port pada host yang ditentukan. connect_ex mengembalikan 0 jika koneksi berhasil namun jika koneksi gagal maka akan mengenbalikan kode kesalahan.
             if result == 0:
                 try: # Memulai blok try kedua untuk menangani potensi kesalahan saat mengirim permintaan dan menerima banner.  
                     sock.send(b'HEAD / HTTP/1.0\r\n\r\n')
