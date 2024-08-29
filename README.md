@@ -42,7 +42,7 @@ Jalankan Tools menggunakan command `python3`
 
 ## Demo
 
-[![Alt Text](https://github.com/kanjeeng/Scanning-Tools/blob/main/image.png)](https://youtu.be/LnLSwZtcIck)
+[![Alt Text](https://github.com/kanjeeng/Scanning-Tools/blob/main/thumbnail.png)](https://youtu.be/LnLSwZtcIck)
 
 
 ```bash
