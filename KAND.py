@@ -19,9 +19,9 @@ choice = input("""\n Please enter the type of scan you want to run
                 1. Network Scanner
                 2. Port Scanner
                 3. WebServer Scanner
-                4. Technology Scaner 
+                4. Technology Scanner 
                 5. SQL Scanner
-                6. WordPress Scaner
+                6. WordPress Scanner
                 7. WordPress Bruteforcer
 Input the Number: """)
 ("You have selected option: ", choice)
