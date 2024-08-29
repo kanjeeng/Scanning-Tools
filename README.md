@@ -1,7 +1,7 @@
 
-# RAF'T - Scanning Tools
+# KAND - Scanning Tools
 
-Raf't is a powerful tool designed to help you discover hidden Tech assets and vulnerabilities in your environment. With a range of features focused on OS scanning, port scanning, and network scanning, Raf't enables users to get a comprehensive view of their infrastructure's security posture.
+Tools designed to help find hidden technology assets and vulnerabilities. With a series of available features, namely network scanning, port scanning, website scanning and SQL scanning, this tool allows users to get an overview of infrastructure security. Not only that, users can use WordPress scans and bruteforcers
 
 
 ![Logo](img/Title.png)
