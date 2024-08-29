@@ -49,17 +49,6 @@ def get_technology_info(url):  # Mendefinisikan fungsi get_technology_info yang 
         else:
             print("Cloudflare: Not detected")  # Jika tidak, mencetak bahwa Cloudflare tidak terdeteksi
         
-        # Memeriksa robots.txt
-        #robots_url = f"{url}/robots.txt"  # Membentuk URL untuk robots.txt
-        #try:
-        #    robots_response = requests.get(robots_url, timeout=5)  # Mengirim permintaan GET untuk robots.txt dengan batas waktu 5 detik
-        #    if robots_response.status_code == 200:
-        #        print("robots.txt: Found")  # Jika respons adalah 200 OK, mencetak bahwa robots.txt ditemukan
-        #    else:
-        #        print("robots.txt: Not found")  # Jika tidak, mencetak bahwa robots.txt tidak ditemukan
-        #except RequestException:
-        #    print("robots.txt: Not found")  # Jika permintaan gagal, mencetak bahwa robots.txt tidak ditemukan
-        
     except RequestException as e:
         print(f"Error: {e}")  # Menangani pengecualian permintaan HTTP dan mencetak pesan kesalahan
 
