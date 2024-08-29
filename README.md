@@ -33,7 +33,13 @@ Jalankan Tools menggunakan command `python3`
 ```bash
   python3 KAND.py
 
-```  
+```
+## WPScan Installation on Debian
+
+```bash
+  sudo apt install wpscan
+```
+
 ## Demo
 
 [![Alt Text](img/Youtube.png)](https://youtu.be/EPOFYOy4xAw)
