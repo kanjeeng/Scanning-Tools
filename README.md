@@ -34,7 +34,7 @@ Jalankan Tools menggunakan command `python3`
   python3 KAND.py
 
 ```  
-## Usage
+## Demo
 
 [![Alt Text](img/Youtube.png)](https://youtu.be/EPOFYOy4xAw)
 
@@ -50,12 +50,6 @@ Click the Demo Above!
 **Server:** Linux
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/LazyCats07/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrafiediananta/)
-
-
-
 ## Authors
 
-- [@LazyCats07](https://github.com/LazyCats07/)
+- [@kanjeeng](https://github.com/kanjeeng/)
