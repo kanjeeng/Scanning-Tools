@@ -1,5 +1,6 @@
 import scapy.all as scapy  # Mengimpor seluruh modul Scapy yang digunakan untuk melakukan scan jaringan, khususnya untuk mengirim paket ARP 
 # ARP (Address Resolution Protocol) = protokol jaringan yang digunakan untuk menemukan alamat fisik (MAC address) dari perangkat dijaringan lokal (LAN) berdasarkan alamat IP-nya.
+# API ((Application Programming Interface) ) memungkinkan interaksi antara perangkat lunak melalui permintaan dan respons dalam jaringan, seringkali menggunakan protokol standar seperti HTTP/HTTPS.
 import re  # Mengimpor modul regular expression (regex) untuk memvalidasi input IP address range.
 import requests  # Mengimpor modul requests yang digunakan untuk melakukan permintaan HTTP, digunakan di sini untuk mendapatkan informasi vendor MAC.
 import time  # Mengimpor modul time yang digunakan untuk menambahkan delay antara permintaan API, guna mencegah pembatasan rate API.
