@@ -8,16 +8,6 @@ Tools designed to help find hidden technology assets and vulnerabilities. With a
 
 
 
-
-[![GitHub release](https://img.shields.io/github/release/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/releases)
-[![GitHub issues](https://img.shields.io/github/issues/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/issues)
-[![Github Stars](https://img.shields.io/github/stars/LazyCats07/Raf-T.svg?style=social&label=Stars)](https://github.com/LazyCats07/Raf-T)
-[![GitHub Followers](https://img.shields.io/github/followers/LazyCats07.svg?style=social&label=Follow)](https://github.com/LazyCats07)
-[![Follow on LinkedIn](https://img.shields.io/badge/Follow%20on%20LinkedIn-%230077B5.svg?style=social&logo=linkedin)](https://www.linkedin.com/in/mrafiediananta/)
-
-[[LinkedIn](https://www.linkedin.com/in/mrafiediananta/)] [[GitHub](https://github.com/LazyCats07/Raf-T)] [[Website](https://ren-os.vercel.app/)]
-
-
 ## Installation
 
 Install my-project with git-clone
